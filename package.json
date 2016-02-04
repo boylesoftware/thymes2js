@@ -2,7 +2,7 @@
   "name": "thymes2js",
   "version": "1.0.0",
   "description": "Complete framework for server-side applications that expose RESTful web APIs.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/boylesoftware/thymes2js/issues"
   },
-  "homepage": "https://github.com/boylesoftware/thymes2js#readme"
+  "homepage": "https://github.com/boylesoftware/thymes2js#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  }
 }
